@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mini Play</title>
+        <link rel="stylesheet" href="/static/style.css">    
+    </head>
+    <body>
+        <div class="container">
+            <h1>Welcome to Mini Play</h1>
+            <input id="message" placeholder="Enter a message...">
+            <div class="buttons">
+            <button onclick="callAPI('echo')">Echo</button>
+            <button onclick="callAPI('count')">Count</button>
+            <button onclick="callHello()">Hello</button>
+        </div>
+        <h3> API Response</h3>
+        <pre id=""result"> Your msg appears here</pre>
+
+        </div>
+        <script src="/static/script.js"></script>
+
+
+    </body>
+</html>
